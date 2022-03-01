@@ -1,0 +1,17 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 3rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  padding: 1rem;
+}
+
+ul li {
+  margin-left: 1rem;
+  font-size: 18px;
+}

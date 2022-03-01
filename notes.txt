@@ -1,0 +1,19 @@
+SPA (Single Page Application): 
+
+package.json: This file contains all the rules and configurations that are necessary for our application to run smoothly.
+
+package-lock.json: This contains a list of all the necessary version numbers for our packagaes and dependencies being used within our application. 
+
+
+README.md: A markdown file that mostly used to a description of what a project is about. In there, you'e going to findd the name, the author. the objective. e.tc.
+
+
+public folder: this folder contains our index.html file and all other necessary assets needed for our project to run.
+
+node_modules: this folder contains all the dependencies that our package are dependent on in order for them to work seamlessly. it's ususally best not to tamper with any files within the node_modules as it cause great damage to the project.
+
+src folder: this contains all our project files whcih are neddded while builfinh  project.
+
+
+JSX:  Jaavscript and XML
+
