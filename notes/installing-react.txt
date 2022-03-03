@@ -1,0 +1,11 @@
+Before installing React these are following things you need to have setup on your machine.
+- Node intalled
+- npm 
+- working terminal or command line
+
+
+The easiest way to get started with React is by using Create-React-App (CRA). CRA is basically a command-line tool which helps installs all the necessary settings and boilerplate needed for React to work seamlessly. Head on to https://create-react-app.dev/docs/getting-started , then install React using the command below:
+
+ - npx create-react-app <YOUR_APPLICATION_NAME>
+
+

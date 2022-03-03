@@ -17,3 +17,4 @@ src folder: this contains all our project files whcih are neddded while builfinh
 
 JSX:  Jaavscript and XML
 
+Package Manager (npm): A command line tool which is used in downloading different softwares or packagaes into our system. It's majorly used in downloading Jaavscript packagaes. 

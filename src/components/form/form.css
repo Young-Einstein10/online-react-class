@@ -6,14 +6,14 @@ form {
 }
 
 .form-control {
-  max-width: 600px;
   width: 100%;
   margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .form-control label,
 .form-control input {
-  display: block;
   margin-bottom: 0.75rem;
 }
 
@@ -24,7 +24,6 @@ form {
   padding: 0 0.75rem;
   font-size: 16px;
   border: 1px solid;
-  width: 100%;
 }
 
 .form-control textarea {
@@ -33,7 +32,6 @@ form {
 }
 
 .btn-wrapper {
-  margin-top: 2rem;
   max-width: 600px;
   width: 100%;
 }

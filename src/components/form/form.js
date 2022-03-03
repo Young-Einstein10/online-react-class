@@ -1,19 +1,42 @@
-import React from "react";
+import React, { useState } from "react";
 import "./form.css";
 
-const Form = () => {
+const Form = ({ addNewCourse }) => {
+  const [title, setTitle] = useState("");
+  const [description, setDescription] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    addNewCourse({ title, description });
+
+    clearFormFields();
+  };
+
+  const clearFormFields = () => {
+    setTitle("");
+    setDescription("");
+  };
+
   return (
-    <form>
+    <form onSubmit={handleSubmit}>
       <div className="form-control">
         <label>Title</label>
 
-        <input type="text" />
+        <input
+          type="text"
+          onChange={(e) => setTitle(e.target.value)}
+          value={title}
+        />
       </div>
 
       <div className="form-control">
         <label>Descripition</label>
 
-        <textarea />
+        <textarea
+          onChange={(e) => setDescription(e.target.value)}
+          value={description}
+        />
       </div>
 
       <div className="btn-wrapper">
