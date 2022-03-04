@@ -44,3 +44,10 @@ form {
   border-radius: 4px;
   background-color: rgba(14, 72, 243, 0.558);
 }
+
+.error-msg {
+  font-size: 14px;
+  color: #fa4339;
+  align-self: flex-start;
+  margin-bottom: 1rem;
+}
